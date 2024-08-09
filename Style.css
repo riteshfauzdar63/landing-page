@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow-y: auto; */
+}
+
+nav{
+    height: 60px;
+    width: 100vw;
+    padding: 0 10% 0 10%;
+    display: flex;
+    background-color:rgb(191, 190, 222);
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: baseline;
+    /* border: 1px solid yellow; */
+    /* float: left; */
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    /* margin: 10px; */
+    align-content: center;
+    align-self: center;
+}
+
+.logo h2{
+    color: #00246B;
+    font : 60px;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+nav .items{
+    font-weight: bold;
+    /* width: auto; */
+    height: 60px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    /* padding: 15px 10px; */
+    color: black;
+    /* border: 1px solid green; */
+    
+    
+}
+
+nav .items a{
+    gap: 10px;
+    margin: 0 30px 0 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+    color: rgb(101, 7, 101);
+    background-color: rgb(191, 190, 222);
+    
+}
+
+nav .items a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .hero-intro{
+    height: 600px;
+    width: 90vw;
+    padding: 0 0 0 10%;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+
+  .hero-intro .left-div{
+    width: 50%;
+    /* border: 1px solid blue; */
+    padding-top: 20%;
+  }
+
+  .hero-intro .left-div h1{
+    text-align: center;
+  }
+
+  .hero-intro .left-div p{
+    font: 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .hero-intro .right-div{
+    width: 50%;
+    /* border: 1px solid yellow; */
+  }
+
+  .hero-intro .right-div img{
+    height: 594px ;
+    width:auto;
+  }
+
+  span{
+    color: #00246B;
+    font-size: larger;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  footer .social-icon_item{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: center;
+  }
+
+  footer p{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  }
